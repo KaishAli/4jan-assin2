@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(https://images.pexels.com/photos/1198828/pexels-photo-1198828.jpeg?cs=srgb&dl=pexels-todd-trapani-1198828.jpg&fm=jpg);
+}
+h1{
+    color: rgb(65, 225, 86);
+}
+div {
+  text-align: center;
+  font-family: sans-serif;
+  width: 50rem;
+  height: 500px;
+  margin-left: 280px;
+  margin-top: 100px;
+  padding: 10px;
+  box-shadow: 5px 10px 5px 10px #dda0e9;
+}
+button {
+  border: none;
+  background-color: rgb(127, 127, 155);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+#reset {
+  border: none;
+  background-color: rgb(127, 127, 155);
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: rgb(255, 184, 184);
+}
+#reset:hover {
+  background-color: rgb(255, 184, 184);
+}
+
+.input {
+  color: rgb(0, 0, 0);
+  height: 30px;
+  border: 2px solid rgb(194, 167, 255);
+  width: 400px;
+}

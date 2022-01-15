@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <div>
+        <h1>Simple Form</h1>
+  <form>
+    <input class = "input" type="text" minlength="10" maxlength="10" placeholder="Enter your Name" required/><br><br>
+    <input class = "input" type="email" placeholder="Enter your email" pattern=".+@gmail.com" required/>
+        <br>
+        <br>
+        <input class = "input"id="p1" type="password" minlength="10" maxlength="10" placeholder="Password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])" title="Password must contain one Uppercase, one lowercase, one special character and must
+        be of length at least 10" required/><br><br>
+        <input class = "input"id="p2" type="password" minlength="10" maxlength="10" placeholder="Confirm Password" value="" required/><br><br>
+            <button id="btn" onclick="submitwork()">Submit</button>
+    <input type="reset" id="reset"/>
+  </form>
+</div>
+    <script src="form.js">
+    </script>
+</body>
+</html>
